@@ -1,11 +1,10 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import { add } from 'shared'
+import HelloWorld from "./components/HelloWorld.vue";
+import { add } from "shared";
 
 function sum(a: number, b: number) {
-  return add(a, b)
+  return add(a, b);
 }
-
 </script>
 
 <template>
